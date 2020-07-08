@@ -326,6 +326,37 @@ footer{
 
 /******************Lightbox Photography**********************/
 
+/************************ CONTACT ***************************/
+form {
+    width: 50%;
+    background-color: #e8c6c5;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+    margin: auto;
+}
+
+.formtext {
+  display: flex;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input, select {
+  flex-grow: 1;
+  background-color: white;
+}
+
+button{
+  background-color: white;
+  padding: 1%;
+}
+/*****************END CONTACT FORM********************************/
+
 /******************START Media Query Min 300 ********************/
 @media(min-width: 300px){
 
