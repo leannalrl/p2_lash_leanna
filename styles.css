@@ -190,6 +190,11 @@ nav ul li a{
   background-size: cover;
 }
 
+#photography{
+  background-image: url("images/web_photos/portfolio.jpg");
+  background-size: cover;
+}
+
 .image-grid section {
 	font-family: 'Open Sans SemiBold', cursive;
   background-color: #cd919e;
