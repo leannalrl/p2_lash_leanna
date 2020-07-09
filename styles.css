@@ -157,11 +157,66 @@ nav ul li a{
 	font-weight: bolder;
 }
 
+/********************PICTURE TABS******************/
+
 .image-grid{
-	display: flex;
-	flex-wrap: wrap;
-	margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+#aboutme {
+  background-image: url("images/web_photos/about.jpg");
+  background-size: cover;
+}
+
+#portfolio {
+  background-image: url("images/web_photos/portfolio.jpg");
+  background-size: cover;
+}
+
+#clients {
+  background-image: url("images/web_photos/clients.jpg");
+  background-size: cover;
+}
+
+#contact {
+  background-image: url("images/web_photos/contact.jpg");
+  background-size: cover;
+}
+
+.image-grid section {
+  background-color: #cd919e;
+  text-align: center;
+  flex: 0 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.image-grid section img {
+  max-width: 100%;
+}
+
+.image-grid section h2 {
+  color: #000000;
+  background-color: #fdfcfa;
+  padding: 3% 0;
+  width: 40%;
+  margin: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/********************PICTURE TABS******************/
 
 h1{
 	font-family: 'Mrs Saint Delafield', cursive;
