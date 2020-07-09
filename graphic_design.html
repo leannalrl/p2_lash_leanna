@@ -5,6 +5,8 @@
 
 		<meta charset="utf-8">
 
+		<title></title>
+
 		<title>Graphic Design</title>
 
 		<link type="text/css" rel="stylesheet" href="styles.css" />
@@ -20,7 +22,11 @@
 
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
+		<script src="https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007714979/custom/page/hack-a-thon-3/masonry.min.min.js"></script>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script src="https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007849180/custom/page/hack-a-thon-3/isotope.min.js"></script>
 
 	</head>
 
@@ -78,19 +84,23 @@
 
 	<section>
 
-<h1>Grapic Design</h1>
+	<div id="logo">
+
+		<img src="images/logo/logo_pink.png" alt="logo">
+
+    </div>
 
 	<main class="site-content">
 
 		<div class="mygraphics">
-		<div class="button-group filters-button-group">
-			<button class="button is-checked" data-filter="*">all</button>
-			<button class="button" data-filter=".photoshop">Photoshop</button>
-			<button class="button" data-filter=".indesign">InDesign</button>
-			<button class="button" data-filter=".illustrator">Illustrator</button>
-		</div>
+			<div class="button-group filters-button-group">
+				<button class="button is-checked" data-filter="*">all</button>
+				<button class="button" data-filter=".photoshop">Photoshop</button>
+				<button class="button" data-filter=".indesign">InDesign</button>
+				<button class="button" data-filter=".illustrator">Illustrator</button>
+			</div>
 
-		<section id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
+			<section id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
 				<article class="photoshop">
 					<img src="images/adobework/photoshop/postcard.jpg" class="img-responsive"/>
 				</article>
@@ -216,6 +226,12 @@
 				</article>
 			</section>
 
+
+</div>
+
+
+
+
 	</main>
 
 	</section>
@@ -223,6 +239,8 @@
 		</div>
 
 		<script src="js/hamburger.js"></script>
+
+		<script src="js/graphic.js"></script>
 
 		<script src="https://use.fontawesome.com/83ac61cd0f.js"></script>
 
