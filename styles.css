@@ -195,6 +195,11 @@ nav ul li a{
   background-size: cover;
 }
 
+#video{
+  background-image: url("images/web_photos/videoediting.jpg");
+  background-size: cover;
+}
+
 .image-grid section {
 	font-family: 'Open Sans SemiBold', cursive;
   background-color: #cd919e;
