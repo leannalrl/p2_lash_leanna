@@ -512,6 +512,10 @@ h1{
 	font-family: 'Mrs Saint Delafield', cursive;
 	text-align: center;
 	font-size: 3rem;
+	padding: 12%;
+	padding-bottom: 2%;
+}
+#welcome h1{
 	padding-bottom: 0;
 	padding-top: 5%;
 }
