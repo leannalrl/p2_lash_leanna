@@ -206,11 +206,10 @@ nav ul li a{
 }
 
 .image-grid section {
-	font-family: 'Open Sans SemiBold', cursive;
   background-color: #cd919e;
   text-align: center;
   flex: 0 400px;
-  height: 300px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -315,122 +314,6 @@ a{
 }
 /***************************************GRAPHICS CATEGORIES*************************/
 
-/******************************VIDEOGRAPHY*******************/
-
-.video-gallery {
-  position: relative;
-  margin: 0 auto;
-  max-width: 1000px;
-  text-align: center;
-}
-
-.video-gallery .gallery-item {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 320px;
-  max-width: 580px;
-  max-height: 360px;
-  width: 48%;
-  background: #000;
-  cursor: pointer;
-}
-
-.video-gallery .gallery-item img {
-  position: relative;
-  display: block;
-  opacity: .45;
-  width: 105%;
-  height: 300px;
-  transition: opacity 0.35s, transform 0.35s;
-  transform: translate3d(-23px, 0, 0);
-  backface-visibility: hidden;
-}
-
-.video-gallery .gallery-item .gallery-item-caption {
-  padding: 2em;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.25em;
-}
-
-.video-gallery .gallery-item .gallery-item-caption,
-.video-gallery .gallery-item .gallery-item-caption > a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.video-gallery .gallery-item h2 {
-  font-weight: 300;
-  overflow: hidden;
-  padding: 0.5em 0;
-}
-
-
-.video-gallery .gallery-item h2,
-.video-gallery .gallery-item p {
-  position: relative;
-  margin: 0;
-  z-index: 10;
-}
-
-.video-gallery .gallery-item p {
-  letter-spacing: 1px;
-  font-size: 68%;
-
-  padding: 1em 0;
-  opacity: 0;
-  transition: opacity 0.35s, transform 0.35s;
-  transform: translate3d(10%, 0, 0);
-}
-
-.video-gallery .gallery-item:hover img {
-  opacity: .3;
-  transform: translate3d(0, 0, 0);
-
-}
-
-.video-gallery .gallery-item .gallery-item-caption {
-  text-align: left;
-}
-
-.video-gallery .gallery-item h2::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 15%;
-  height: 1px;
-  background: #fff;
-
-  transition: transform 0.3s;
-  transform: translate3d(-100%, 0, 0);
-}
-
-.video-gallery .gallery-item:hover h2::after {
-  transform: translate3d(0, 0, 0);
-}
-
-.video-gallery .gallery-item:hover p {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-@media screen and (max-width: 50em) {
-  .video-gallery .gallery-item {
-    display: inline-block;
-    float: none;
-    margin: 10px auto;
-    width: 100%;
-  }
-}
-
-/******************************VIDEOGRAPHY*******************/
-
 /*******************************WRITING BLOG ******************************************/
 .writing{
   display: flex;
@@ -508,14 +391,11 @@ a{
 }
 /*************************WRITING BLOG****************************/
 
+
 h1{
 	font-family: 'Mrs Saint Delafield', cursive;
 	text-align: center;
 	font-size: 3rem;
-	padding: 12%;
-	padding-bottom: 2%;
-}
-#welcome h1{
 	padding-bottom: 0;
 	padding-top: 5%;
 }
@@ -675,6 +555,122 @@ footer{
 
 /******************Lightbox Photography**********************/
 
+/******************************VIDEOGRAPHY*******************/
+
+.video-gallery {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.video-gallery .gallery-item {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 580px;
+  max-height: 360px;
+  width: 48%;
+  background: #000;
+  cursor: pointer;
+}
+
+.video-gallery .gallery-item img {
+  position: relative;
+  display: block;
+  opacity: .45;
+  width: 105%;
+  height: 300px;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(-23px, 0, 0);
+  backface-visibility: hidden;
+}
+
+.video-gallery .gallery-item .gallery-item-caption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+.video-gallery .gallery-item .gallery-item-caption,
+.video-gallery .gallery-item .gallery-item-caption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-gallery .gallery-item h2 {
+  font-weight: 300;
+  overflow: hidden;
+  padding: 0.5em 0;
+}
+
+
+.video-gallery .gallery-item h2,
+.video-gallery .gallery-item p {
+  position: relative;
+  margin: 0;
+  z-index: 10;
+}
+
+.video-gallery .gallery-item p {
+  letter-spacing: 1px;
+  font-size: 68%;
+
+  padding: 1em 0;
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(10%, 0, 0);
+}
+
+.video-gallery .gallery-item:hover img {
+  opacity: .3;
+  transform: translate3d(0, 0, 0);
+
+}
+
+.video-gallery .gallery-item .gallery-item-caption {
+  text-align: left;
+}
+
+.video-gallery .gallery-item h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  height: 1px;
+  background: #fff;
+
+  transition: transform 0.3s;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.video-gallery .gallery-item:hover h2::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.video-gallery .gallery-item:hover p {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+@media screen and (max-width: 50em) {
+  .video-gallery .gallery-item {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+
+/******************************VIDEOGRAPHY*******************/
+
 /************************ CONTACT ***************************/
 form {
     width: 50%;
@@ -704,7 +700,6 @@ button{
   background-color: white;
   padding: 1%;
 }
-/*****************END CONTACT FORM********************************/
 
 /***********************CLIENT REVIEWS***************************/
 .client {
@@ -890,14 +885,12 @@ button{
 	}
 
 	form{
-	width: 70%;
+		width: 70%;
 	}
 
-.image-grid section {
-		padding-top: 8%;
+	.image-grid section {
+  		padding-top: 8%;
 	}
-
-}
 
 /*****.button img {
   width: 100%;
@@ -938,11 +931,7 @@ button{
 	h1{
 		width: 250px;
 		margin: auto;
-		padding-top: 10%;
-	}
-
-	#welcome h1{
-		padding-top: 0;
+		padding-top: 1%;
 	}
 
 	aside{
@@ -976,13 +965,13 @@ button{
 	}
 
 	.image-grid section {
-		padding-top: 6%;
+  		padding-top: 6%;
 	}
 
 }
 /******************* END Media Query Min 600***********/
 
-/******************* START Media Query Min 900 and Max 1800***********/
+/******************* START Media Query Min 900 and Max 1200***********/
 @media(min-width: 900px) and (max-width: 1800px){
 /*	.image-grid{
 		max-width: 900px;
@@ -1007,30 +996,30 @@ button{
 	}
 
 	nav ul{
-	list-style: none;
-	text-align: center;
-	padding: 10% 0% 3% 0%;
+		list-style: none;
+		text-align: center;
+		padding: 10% 0% 3% 0%;
 	}
 
 	nav ul li{
-	display: inline;
-	padding: 0 2% 0 2%;
-	padding-left: 6%;
-	padding-right: 6%;
+		display: inline;
+		padding: 0 2% 0 2%;
+		padding-left: 6%;
+		padding-right: 6%;
 	}
 
 	nav ul li a{
-	color: #000000;
-	text-decoration: none;
+		color: #000000;
+		text-decoration: none;
 	}
 
 	nav ul li a:hover{
-  	color: #e8c6c5;
+  		color: #e8c6c5;
 	}
 
 	h2, p{
 		padding-left: 10%;
-		padding-right: 10%;
+      	padding-right: 10%;
 	}
 
 	figure{
@@ -1068,12 +1057,11 @@ button{
 	}
 
 	.image-grid section {
-		padding-top: 4%;
-}
-
+  		padding-top: 4%;
+	}
 
 	.mygraphics .button {
-	width: 15%;
+		width: 15%;
 	}
 }
-/******************* END Media Query Min 900 and Max 1800***********/
+/******************* END Media Query Min 900 and Max 1200***********/
