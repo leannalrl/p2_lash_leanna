@@ -6,6 +6,7 @@
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
+	background-color: #fdfcfa;
 }
 
 body{
@@ -432,7 +433,7 @@ footer{
 /*****************Lightbox Photography***********************/
 #gallery {
   padding-top: 40px;
-	background-color: #fdfcfa;
+  background-color: #fdfcfa;
 }
 @media screen and (min-width: 991px) {
   #gallery {
