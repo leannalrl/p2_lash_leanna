@@ -941,6 +941,10 @@ button{
 		padding-top: 10%;
 	}
 
+	#welcome h1{
+		padding-top: 0;
+	}
+
 	aside{
 		width: 50%;
 		float: right;
