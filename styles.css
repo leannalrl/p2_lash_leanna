@@ -1050,5 +1050,9 @@ button{
 		padding-bottom: 5%;
 		text-align: center;
 	}
+
+	.mygraphics .button {
+	width: 15%;
+	}
 }
 /******************* END Media Query Min 900 and Max 1800***********/
