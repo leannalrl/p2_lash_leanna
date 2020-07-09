@@ -963,6 +963,10 @@ button{
 		text-align: center;
 	}
 
+	.image-grid section {
+		padding-top: 6%;
+	}
+
 }
 /******************* END Media Query Min 600***********/
 
