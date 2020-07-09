@@ -186,6 +186,7 @@ nav ul li a{
 }
 
 .image-grid section {
+	font-family: 'Open Sans SemiBold', cursive;
   background-color: #cd919e;
   text-align: center;
   flex: 0 400px;
