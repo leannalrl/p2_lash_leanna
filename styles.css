@@ -516,6 +516,11 @@ h1{
 	padding-top: 5%;
 }
 
+contact, clients, photography, videography, writing, graphics h1{
+		padding: 12%;
+    padding-bottom: 2%;
+}
+
 h2, p{
 	padding-top: 0;
 	padding-bottom: 3%;
