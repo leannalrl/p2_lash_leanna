@@ -1051,6 +1051,11 @@ button{
 		text-align: center;
 	}
 
+	.image-grid section {
+		padding-top: 4%;
+}
+
+
 	.mygraphics .button {
 	width: 15%;
 	}
