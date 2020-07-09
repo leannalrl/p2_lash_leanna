@@ -667,6 +667,11 @@ button{
   	color: #e8c6c5;
 	}
 
+	h2, p{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
 	figure{
 		width: 46%;
 	}
